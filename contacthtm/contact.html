@@ -1,0 +1,31 @@
+<div class="ui one column grid container">
+    <div class="column">
+      <div class="ui segment">
+        <div class="ui error message hidden"></div>
+        <div class="ui success message hidden">
+          <div class="header">Form Completed</div>
+          <p>You're all signed up for the newsletter.</p>
+        </div>
+        <form id="form" class="ui form" novalidate>
+          <div class="field">
+            <label>Name</label>
+            <input name="name" data-validation="required">
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input name="last name">
+          </div>
+          <div class="field">
+            <label>Phone</label>
+            <input name="phone" data-validation="required phone">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" name="email" data-validation="required email">
+          </div>
+  
+          <button class="ui button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>

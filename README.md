@@ -1,4 +1,4 @@
 # The-final-project-it-2020
-The final project to submit 
+#The latest git commit is the final verson
 
-The latest verson is the final verson 
+
